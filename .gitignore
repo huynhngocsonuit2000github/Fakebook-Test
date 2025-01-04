@@ -1,0 +1,7 @@
+**/obj/*
+**/bin/*
+**/obj
+**/bin
+**/.vagrant
+**/*.tar
+**/src/test/Resources/ReportResults/*.trx

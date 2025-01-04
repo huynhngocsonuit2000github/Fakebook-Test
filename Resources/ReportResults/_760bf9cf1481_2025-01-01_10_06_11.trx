@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4831b39a-8949-4b7c-a30b-812ca6d9ff48" name="@760bf9cf1481 2025-01-01 10:06:11" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-01-01T10:06:11.8204656+00:00" queuing="2025-01-01T10:06:11.8204657+00:00" start="2025-01-01T10:05:59.3863565+00:00" finish="2025-01-01T10:06:16.2333306+00:00" />
+  <TestSettings name="default" id="bea1f423-ddf4-4245-84cf-80a641793dbe">
+    <Deployment runDeploymentRoot="_760bf9cf1481_2025-01-01_10_06_11" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="1e9be6d2-ca95-4ebd-b7fd-24dd7170c580" testId="2b105cf9-4085-2175-7ef3-8a3e8f3e5ceb" testName="FakebookIntegrationTests.Selenium.LoginPageTest.Test_LoginPage_ExternalUser" computerName="760bf9cf1481" duration="00:00:04.2313330" startTime="2025-01-01T10:06:15.9223358+00:00" endTime="2025-01-01T10:06:15.9223360+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e9be6d2-ca95-4ebd-b7fd-24dd7170c580" />
+    <UnitTestResult executionId="2a78f1e6-11bf-48d2-a480-e45c5288a27c" testId="d4578188-4fcb-856b-9497-4e14bfa2776b" testName="FakebookIntegrationTests.Selenium.LoginPageTest.Test_LoginPage_InternalUser" computerName="760bf9cf1481" duration="00:00:06.9596875" startTime="2025-01-01T10:06:11.6912765+00:00" endTime="2025-01-01T10:06:11.6913824+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a78f1e6-11bf-48d2-a480-e45c5288a27c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="FakebookIntegrationTests.Selenium.LoginPageTest.Test_LoginPage_ExternalUser" storage="/var/jenkins_home/workspace/fb001-test_internal_user_login/src/test/fakebookintegrationtests/bin/debug/net6.0/fakebookintegrationtests.dll" id="2b105cf9-4085-2175-7ef3-8a3e8f3e5ceb">
+      <Execution id="1e9be6d2-ca95-4ebd-b7fd-24dd7170c580" />
+      <TestMethod codeBase="/var/jenkins_home/workspace/FB001-Test_internal_user_login/src/test/FakebookIntegrationTests/bin/Debug/net6.0/FakebookIntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FakebookIntegrationTests.Selenium.LoginPageTest" name="Test_LoginPage_ExternalUser" />
+    </UnitTest>
+    <UnitTest name="FakebookIntegrationTests.Selenium.LoginPageTest.Test_LoginPage_InternalUser" storage="/var/jenkins_home/workspace/fb001-test_internal_user_login/src/test/fakebookintegrationtests/bin/debug/net6.0/fakebookintegrationtests.dll" id="d4578188-4fcb-856b-9497-4e14bfa2776b">
+      <Execution id="2a78f1e6-11bf-48d2-a480-e45c5288a27c" />
+      <TestMethod codeBase="/var/jenkins_home/workspace/FB001-Test_internal_user_login/src/test/FakebookIntegrationTests/bin/Debug/net6.0/FakebookIntegrationTests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FakebookIntegrationTests.Selenium.LoginPageTest" name="Test_LoginPage_InternalUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2b105cf9-4085-2175-7ef3-8a3e8f3e5ceb" executionId="1e9be6d2-ca95-4ebd-b7fd-24dd7170c580" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4578188-4fcb-856b-9497-4e14bfa2776b" executionId="2a78f1e6-11bf-48d2-a480-e45c5288a27c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.36)
+[xUnit.net 00:00:03.20]   Discovering: FakebookIntegrationTests
+[xUnit.net 00:00:03.41]   Discovered:  FakebookIntegrationTests
+[xUnit.net 00:00:03.42]   Starting:    FakebookIntegrationTests
+[xUnit.net 00:00:14.84]   Finished:    FakebookIntegrationTests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
