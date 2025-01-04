@@ -23,7 +23,7 @@ pipeline {
             steps {
                 script {
                     sh 'cd ./FakebookIntegrationTests && dotnet restore'
-                    sh 'cd ./FakebookIntegrationTests && dotnet test --logger trx'
+                    sh 'cd ./FakebookIntegrationTests && dotnet test --filter "DisplayName~Test_LoginPage_ExternalUser" --logger trx'
                 }
             }
         }
@@ -45,7 +45,7 @@ pipeline {
     post {
         always {
             script {
-                def sourceDir = "/var/jenkins_home/jobs/FB001-Test_internal_user_login/builds/${env.BUILD_NUMBER}/htmlreports/Test_20Results"
+                def sourceDir = "/var/jenkins_home/jobs/FB001-Test_external_user_login/builds/${env.BUILD_NUMBER}/htmlreports/Test_20Results"
                 def targetDir = "${env.WORKSPACE}/archivedReports"
                 
                 // Create the target directory and copy reports to workspace
